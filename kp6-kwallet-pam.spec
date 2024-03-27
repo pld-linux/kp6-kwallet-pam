@@ -1,17 +1,17 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeplasmaver	6.0.2
+%define		kdeplasmaver	6.0.3
 %define		qtver		5.15.2
 %define		kpname		kwallet-pam
 Summary:	KWallet PAM integration
 Name:		kp6-%{kpname}
-Version:	6.0.2
+Version:	6.0.3
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		Base
 Source0:	https://download.kde.org/stable/plasma/%{kdeplasmaver}/%{kpname}-%{version}.tar.xz
-# Source0-md5:	dba5cd66140edc09e392aa63aae41590
+# Source0-md5:	0918f152f0049c8d2f3f96252d40b5d4
 URL:		http://www.kde.org/
 BuildRequires:	cmake >= 3.16.0
 BuildRequires:	kf6-extra-cmake-modules >= 1.4.0
