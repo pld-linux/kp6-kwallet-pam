@@ -7,7 +7,7 @@
 Summary:	KWallet PAM integration
 Name:		kp6-%{kpname}
 Version:	6.6.4
-Release:	1
+Release:	2
 License:	GPL v2+/LGPL v2.1+
 Group:		Base
 Source0:	https://download.kde.org/stable/plasma/%{kdeplasmaver}/%{kpname}-%{version}.tar.xz
