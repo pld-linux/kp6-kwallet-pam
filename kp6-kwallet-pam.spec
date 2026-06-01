@@ -26,6 +26,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 KWallet PAM integration.
 
+%description -l pl.UTF-8
+Integracja z KWallet PAM.
+
 %prep
 %setup -q -n %{kpname}-%{version}
 
